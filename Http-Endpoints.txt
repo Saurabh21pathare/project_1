@@ -1,0 +1,53 @@
+HTTP Endpoints
+
+    	A] Doctors Endpoints	
+
+		 1. GET /doctors  =>  Get a complete list of all registered doctors.
+
+		 2. GET /doctors/:id => Get the details of a specific doctor by their ID.
+
+		 3. GET /doctors/search?query=:query => Search for doctors by name or specialty using a query string.
+
+		 4. POST /doctors => Add a new doctor to the database.
+
+		 5. PUT /doctors/:id => Update the information of a specific doctor using their ID.
+
+		 6. DELETE /doctors/:id => Delete a doctor's record from the database by their ID.
+
+	B] Clinics Endpoints
+
+		 7. GET /clinics => Retrieve a list of all clinics.
+
+		 8. GET /clinics/:id => Retrieve details of a specific clinic using its ID.
+
+		 9. GET /clinics/search?query=:query => Search for clinics by name, location, or other criteria using a query string.
+
+		10. POST /clinics => Creates a new clinic.
+
+		11. PUT /clinics/:id => Update information of a specific clinic using its ID.
+
+		12. DELETE /clinics/:id => Delete a specific clinic from the database using its ID.
+
+	C] Appointments Endpoints
+
+		13. GET /appointments => Retrieve a list of all appointments.
+
+		14. GET /appointments/:id => Retrieve details of a specific appointment using its ID.
+
+		15. POST /appointments => Creates a new appointment.
+
+		16. PUT /appointments/:id => Update information of a specific appointment using its ID.
+
+		17. DELETE /appointments/:id =>  Delete a specific appointment from the database using its ID.
+
+	D] Helpers Endpoints
+
+		18. GET /helpers => Retrieve a list of all helpers.
+
+		19. GET /helpers/:id =>  Retrieve details of a specific helper using their ID.
+
+		20. POST /helpers =>  Create a new helper.
+
+		21. PUT /helpers/:id => Update information of a specific helper using their ID.
+
+		22. DELETE /helpers/:id => Delete a specific helper from the database using their ID.
